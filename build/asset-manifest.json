@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e79f11b6.chunk.css",
+    "main.js": "/static/js/main.167f23e1.chunk.js",
+    "main.js.map": "/static/js/main.167f23e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
+    "static/js/2.24622948.chunk.js": "/static/js/2.24622948.chunk.js",
+    "static/js/2.24622948.chunk.js.map": "/static/js/2.24622948.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
+    "static/css/main.e79f11b6.chunk.css.map": "/static/css/main.e79f11b6.chunk.css.map",
+    "static/js/2.24622948.chunk.js.LICENSE.txt": "/static/js/2.24622948.chunk.js.LICENSE.txt",
+    "static/media/navmenu.scss": "/static/media/Voice-in-my-Head.2110c21e.otf",
+    "static/media/Resume-Amelia-Goodson.1290f995.pdf": "/static/media/Resume-Amelia-Goodson.1290f995.pdf",
+    "static/media/accessibility.23e70a19.png": "/static/media/accessibility.23e70a19.png",
+    "static/media/adobe-illustrator.1b1b6c2b.png": "/static/media/adobe-illustrator.1b1b6c2b.png",
+    "static/media/ajax.80c34709.png": "/static/media/ajax.80c34709.png",
+    "static/media/carousel.scss": "/static/media/arrow-next-pink.14cae57a.svg",
+    "static/media/css3.53d5eb3c.png": "/static/media/css3.53d5eb3c.png",
+    "static/media/figma.65326560.png": "/static/media/figma.65326560.png",
+    "static/media/gg-logo-white.518ad854.svg": "/static/media/gg-logo-white.518ad854.svg",
+    "static/media/html.e42ea231.png": "/static/media/html.e42ea231.png",
+    "static/media/javascript.218515fe.svg": "/static/media/javascript.218515fe.svg",
+    "static/media/jquery.ede5c027.jpg": "/static/media/jquery.ede5c027.jpg",
+    "static/media/mobile-Calcul823.664acdca.png": "/static/media/mobile-Calcul823.664acdca.png",
+    "static/media/mobile-Goodson-Gardens.e6a65ea7.png": "/static/media/mobile-Goodson-Gardens.e6a65ea7.png",
+    "static/media/mobile-your-news.818d5431.png": "/static/media/mobile-your-news.818d5431.png",
+    "static/media/spider-web-top_1.e3dca975.svg": "/static/media/spider-web-top_1.e3dca975.svg",
+    "static/media/spider-web2.2a535b79.svg": "/static/media/spider-web2.2a535b79.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f027f2bf.js",
+    "static/css/2.c1256375.chunk.css",
+    "static/js/2.24622948.chunk.js",
+    "static/css/main.e79f11b6.chunk.css",
+    "static/js/main.167f23e1.chunk.js"
+  ]
+}

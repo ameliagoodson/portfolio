@@ -1,0 +1,57 @@
+.app {
+	height: 100vh;
+
+	.sections {
+		overflow-x: hidden;
+		width: 100%;
+		height: calc(100vh - 70px);
+		position: relative;
+		top: 0px;
+		scroll-snap-type: y mandatory;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		scroll-behavior: smooth;
+		.intro {
+			width: 100vw;
+			height: calc(100vh - 70px);
+			scroll-snap-align: start;
+		}
+		.portfolio {
+			width: 100vw;
+			min-height: calc(100vh - 70px);
+			scroll-snap-align: start;
+			padding: 20px;
+		}
+		.contact {
+			width: 100vw;
+			min-height: calc(100vh - 70px);
+			scroll-snap-align: start;
+			color: 000000;
+		}
+	}
+}
+
+// .app {
+// 	height: 100vh;
+
+// 	.sections {
+// 		overflow-x: hidden;
+// 		width: 100%;
+// 		height: calc(100vh - 100px);
+// 		position: relative;
+// 		top: 0px;
+// 		scroll-snap-type: y mandatory;
+// 		scrollbar-width: none;
+// 		&::-webkit-scrollbar {
+// 			display: none;
+// 		}
+// 		scroll-behavior: smooth;
+// 		> * {
+// 			width: 100vw;
+// 			height: calc(100vh - 100px);
+// 			scroll-snap-align: start;
+// 		}
+// 	}
+// }
