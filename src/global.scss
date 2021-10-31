@@ -1,0 +1,76 @@
+$hotpink: rgb(255, 10, 145);
+
+$breakpoints: (
+	"xsmall": 350px,
+	"small": 450px,
+	"medium": 768px,
+	"large": 1024px,
+	"xlarge": 1200px,
+	"xxlarge": 1201px,
+) !default;
+
+@mixin breakpoint($point) {
+	@if $point == xxlarge {
+		@media (min-width: 1201px) {
+			@content;
+		}
+	} @else if $point == xlarge {
+		@media (max-width: 1200px) {
+			@content;
+		}
+	} @else if $point == large {
+		@media (max-width: 1024px) {
+			@content;
+		}
+	} @else if $point == medium {
+		@media (max-width: 769px) {
+			@content;
+		}
+	} @else if $point == small {
+		@media (max-width: 450px) {
+			@content;
+		}
+	} @else if $point == xsmall {
+		@media (max-width: 350px) {
+			@content;
+		}
+	}
+}
+
+p,
+li {
+	font-size: 18px;
+	@include breakpoint(medium) {
+		font-size: 16px;
+	}
+}
+
+@font-face {
+	font-family: "Voice in my Head";
+	src: url(./assets/fonts/Voice-in-my-Head.otf);
+}
+
+@font-face {
+	font-family: "Brass Mono Cozy";
+	src: url(./assets/fonts/BrassMono-Cozy.otf);
+}
+@font-face {
+	font-family: "Brass Mono Regular";
+	src: url(./assets/fonts/BrassMono-Regular.otf);
+}
+@font-face {
+	font-family: "AmazOOSTROVInline";
+	src: url(./assets/fonts/AmazOOSTROVInline.ttf);
+}
+@font-face {
+	font-family: "Haunting Attraction";
+	src: url(./assets/fonts/Haunting-Attraction.ttf);
+}
+@font-face {
+	font-family: "Rockout";
+	src: url(./assets/fonts/Rockout.otf);
+}
+@font-face {
+	font-family: "Lato";
+	src: url(./assets/fonts/Lato-Regular.ttf);
+}

@@ -1,0 +1,39 @@
+@import "../../global.scss";
+
+.navmenu {
+	display: flex;
+	background-color: black;
+	top: 0px;
+	right: -300px;
+	position: fixed;
+	z-index: 2;
+	width: 300px;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: all 1s ease;
+}
+.active {
+	right: 0;
+}
+.navmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 60%;
+
+	li {
+		margin: 20px 0px;
+		text-align: center;
+		font-size: 28px;
+		font-weight: 300;
+	}
+	li:hover {
+		font-weight: 500;
+	}
+}
+.navmenu a {
+	color: white;
+	text-decoration: none;
+}

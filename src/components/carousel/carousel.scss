@@ -1,0 +1,152 @@
+@import "../../global.scss";
+
+.carousel {
+	width: 100%;
+	margin: auto;
+	@include breakpoint(medium) {
+		width: 95%;
+	}
+	.carousel-indicators {
+		bottom: -40px;
+	}
+}
+.carousel-item-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	@include breakpoint(medium) {
+		display: block;
+	}
+	.carousel-left {
+		background-color: black;
+		display: flex;
+		justify-content: center;
+		.carousel-img {
+			height: 500px;
+			@include breakpoint(medium) {
+				height: 250px;
+			}
+		}
+	}
+
+	.carousel-right {
+		background-color: black;
+		padding: 20px;
+		color: white;
+		margin-left: 20px;
+		overflow-y: hidden;
+		@include breakpoint(medium) {
+			padding: 5px;
+		}
+	}
+}
+.carousel-control-next,
+.carousel-control-prev {
+	opacity: 1 !important;
+	top: -50px !important;
+	bottom: auto !important;
+	align-items: inherit !important;
+	overflow-x: visible !important;
+}
+
+.carousel-control-next-icon {
+	background-image: url(../../assets/arrow-next-pink.svg) !important;
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+	opacity: 1 !important;
+	z-index: 99999 !important;
+	overflow-x: visible !important;
+}
+.carousel-control-prev-icon {
+	background-image: url(../../assets/arrow-next-pink.svg) !important;
+	transform: rotate(180deg);
+	width: 2.5rem !important;
+	height: 2.5rem !important;
+	opacity: 1;
+	z-index: 99999 !important;
+	overflow-x: visible !important;
+}
+
+.container-description {
+	flex: 1;
+	overflow-y: hidden;
+	p {
+		margin: 10px 0px;
+	}
+	a {
+		color: $hotpink;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+.heading-project {
+	font-family: "Rockout";
+	font-size: 2rem;
+	color: white;
+	display: flex;
+}
+.subheading-project {
+	font-size: 1.5rem;
+	font-family: "Brass Mono";
+	width: 100%;
+}
+
+.container-features {
+	flex: 2;
+	overflow-y: hidden;
+}
+
+.features-div {
+	overflow-y: hidden;
+
+	.logo-container {
+		display: flex;
+		justify-content: space-between;
+		padding: 5px;
+	}
+	li a {
+		color: white;
+		&:hover {
+			color: $hotpink;
+		}
+	}
+}
+.logo-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.icon-program {
+	max-width: 30px;
+	max-height: 30px;
+}
+.icon-program-wide {
+	max-width: 50px;
+	max-height: 30px;
+}
+.logo-project {
+	height: 40px;
+	margin-left: 20px;
+}
+.highlight {
+	color: $hotpink;
+	font-weight: bold;
+}
+.links-container {
+	display: flex;
+	a {
+		padding: 5px;
+		color: $hotpink;
+	}
+	&:hover {
+		color: white;
+	}
+}
+.link-project {
+	a:hover {
+		color: white;
+	}
+}
