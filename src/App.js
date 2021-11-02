@@ -26,12 +26,6 @@ function App() {
 				<Contact className="contact" />
 				<Footer />
 			</div>
-			{/* <div className="sections">
-				<Intro />
-				<Portfolio />
-				<Contact />
-				<Footer />
-			</div> */}
 		</div>
 	);
 }

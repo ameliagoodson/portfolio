@@ -1,7 +1,7 @@
 import "./navbar.scss";
-import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
 import EmailIcon from "@mui/icons-material/Email";
 import { Divide as Hamburger } from "hamburger-react";
+// import spiderWebLogo from "../../assets/logos/spider-web-64.png";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
 	return (
@@ -9,11 +9,14 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
 			<div className="container-navbar">
 				<div className="left">
 					<a href="#intro" className="brand">
+						{/* <img
+							src={spiderWebLogo}
+							alt="pink spider web logo"
+							className="logo-brand"
+						/> */}
 						Amelia Goodson
 					</a>
 					<div className="contact-container">
-						<PhoneIphoneIcon className="icon-phone" />
-						<p>0478 097 895</p>
 						<EmailIcon className="icon-email" />
 						<p>ameliajanegoodson@gmail.com</p>
 					</div>
