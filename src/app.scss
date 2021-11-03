@@ -20,8 +20,12 @@
 			scroll-snap-align: start;
 		}
 		.portfolio {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			width: 100vw;
-			min-height: calc(100vh - 70px);
+			height: 100vh;
 			scroll-snap-align: start;
 			padding: 20px;
 		}
