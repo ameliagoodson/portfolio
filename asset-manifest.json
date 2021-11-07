@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9e9f82c.chunk.css",
+    "main.css": "/static/css/main.37eab0ff.chunk.css",
     "main.js": "/static/js/main.245ec418.chunk.js",
     "main.js.map": "/static/js/main.245ec418.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
@@ -10,7 +10,7 @@
     "static/js/2.16875a00.chunk.js.map": "/static/js/2.16875a00.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.d9e9f82c.chunk.css.map": "/static/css/main.d9e9f82c.chunk.css.map",
+    "static/css/main.37eab0ff.chunk.css.map": "/static/css/main.37eab0ff.chunk.css.map",
     "static/js/2.16875a00.chunk.js.LICENSE.txt": "/static/js/2.16875a00.chunk.js.LICENSE.txt",
     "static/media/navmenu.scss": "/static/media/Voice-in-my-Head.2110c21e.otf",
     "static/media/Resume-Amelia-Goodson.84ac49be.pdf": "/static/media/Resume-Amelia-Goodson.84ac49be.pdf",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.f027f2bf.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.16875a00.chunk.js",
-    "static/css/main.d9e9f82c.chunk.css",
+    "static/css/main.37eab0ff.chunk.css",
     "static/js/main.245ec418.chunk.js"
   ]
 }
