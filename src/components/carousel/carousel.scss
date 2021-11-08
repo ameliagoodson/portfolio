@@ -4,27 +4,33 @@
 	width: 100%;
 	margin: auto;
 	@include breakpoint(medium) {
-		width: 95%;
+		width: 90%;
+	}
+	@include breakpoint(large) {
+		width: 70%;
 	}
 	.carousel-indicators {
 		bottom: -40px;
 	}
 }
 .carousel-item-container {
-	display: flex;
+	display: block;
 	justify-content: center;
 	align-items: center;
 	@include breakpoint(medium) {
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.carousel-left {
 		background-color: black;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 		.carousel-img {
-			height: 400px;
+			height: 250px;
 			@include breakpoint(medium) {
-				height: 250px;
+				height: 400px;
 			}
 		}
 	}
@@ -33,21 +39,26 @@
 		background-color: black;
 		padding: 20px;
 		color: white;
-		margin-left: 20px;
+
 		overflow-y: hidden;
-		width: 80%;
+		width: 100%;
 		@include breakpoint(medium) {
 			padding: 5px;
+			margin-left: 20px;
+			width: 80%;
 		}
 	}
 }
 .carousel-control-next,
 .carousel-control-prev {
-	opacity: 1 !important;
+	opacity: 0.7 !important;
 	top: -50px !important;
 	bottom: auto !important;
 	align-items: inherit !important;
 	overflow-x: visible !important;
+	&:hover {
+		opacity: 1 !important;
+	}
 }
 
 .carousel-control-next-icon {
@@ -132,10 +143,7 @@
 	height: 40px;
 	margin-left: 20px;
 }
-.highlight {
-	color: $hotpink;
-	font-weight: bold;
-}
+
 .links-container {
 	display: flex;
 	a {

@@ -3,10 +3,10 @@
 	background-color: rgb(0, 0, 0);
 	color: white;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	position: relative;
+	margin-top: 20px;
 	h1 {
 		font-size: 2rem;
 		color: $hotpink;
@@ -19,48 +19,49 @@
 		right: 0px;
 		position: absolute;
 	}
-}
-form {
-	min-height: fit-content;
-	background-color: rgb(0, 0, 0);
-	max-width: 400px;
-	width: 90%;
-	display: flex;
-	flex-direction: column;
-	padding: 10px;
-	label {
-		color: white;
-		font-family: "Brass Mono";
-		font-size: 2rem;
-	}
-	input {
+	form {
+		min-height: fit-content;
+		background-color: rgb(0, 0, 0);
+		max-width: 400px;
+		width: 90%;
 		padding: 10px;
-		font-size: 20px;
-	}
-	textarea {
-		min-height: 200px;
-		padding: 10px;
-		font-size: 20px;
-	}
-	.submit {
-		background-color: black;
-		border: none;
-		padding: 0;
-
-		h2 {
-			border: solid 3px white;
-			margin: 0;
+		display: flex;
+		flex-direction: column;
+		label {
 			color: white;
-			font-size: 2rem;
-			padding: 5px;
 			font-family: "Brass Mono";
-			&:hover {
-				cursor: pointer;
-				color: $hotpink;
+			font-size: 2rem;
+		}
+		input {
+			padding: 10px;
+			font-size: 20px;
+		}
+		textarea {
+			min-height: 200px;
+			padding: 10px;
+			font-size: 20px;
+		}
+		.submit {
+			background-color: black;
+			border: none;
+			padding: 0;
+
+			h2 {
+				border: solid 3px white;
+				margin: 0;
+				color: white;
+				font-size: 2rem;
+				padding: 5px;
+				font-family: "Brass Mono";
+				&:hover {
+					cursor: pointer;
+					color: $hotpink;
+				}
 			}
 		}
 	}
 }
+
 .response {
 	// height: 100vh;
 	background-color: black;

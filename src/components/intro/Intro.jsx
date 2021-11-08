@@ -9,13 +9,13 @@ import linkedInLogo from "../../assets/logos/linkedin.png";
 export default function Intro() {
 	const textRef = useRef();
 	useEffect(() => {
-		//ityped information
+		//ityped information (the typing animation)
 		init(textRef.current, {
 			showCursor: true,
 			strings: [
 				"Web developer",
-				"Front-end web developer",
-				"UI / UX Designer",
+				"Front-end engineer",
+				"UX Designer",
 			],
 			typeSpeed: 100,
 			backDelay: 1000,

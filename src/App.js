@@ -1,7 +1,7 @@
 import Contact from "./components/contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import Portfolio from "./components/portfolio/Portfolio";
-import Footer from "./components/footer/Footer";
+import About from "./components/about/About";
 import Intro from "./components/intro/Intro";
 import "./app.scss";
 import { useState } from "react";
@@ -24,7 +24,7 @@ function App() {
 				<Intro className="intro" />
 				<Portfolio className="portfolio" />
 				<Contact className="contact" />
-				<Footer />
+				<About className="about" />
 			</div>
 		</div>
 	);

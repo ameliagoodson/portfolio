@@ -1,0 +1,30 @@
+@import "../../global.scss";
+
+.about {
+	min-height: fit-content;
+
+	.about-container {
+		width: 90%;
+		margin: 30px auto 0 auto;
+
+		@include breakpoint(large) {
+			width: 50%;
+		}
+		h1 {
+			font-size: 2rem;
+			color: $hotpink;
+			font-family: "Rockout";
+			text-align: center;
+		}
+		h2 {
+			font-size: 1.5rem;
+			color: $hotpink;
+			font-family: "Brass Mono";
+			text-align: center;
+		}
+		p,
+		li {
+			color: white;
+		}
+	}
+}

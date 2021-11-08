@@ -28,7 +28,7 @@ export default function CarouselWork() {
 			<Carousel
 				activeIndex={index}
 				onSelect={handleSelect}
-				interval={99999}
+				interval={999999999}
 			>
 				<Carousel.Item>
 					<div className="carousel-item-container">
@@ -43,16 +43,15 @@ export default function CarouselWork() {
 						<div className="carousel-right">
 							<div className="container-heading">
 								<h2 className="heading-project">
-									Goodson Gardens {" "}
-										<img
-											src={ggLogo}
-											alt="Goodson Gardens logo"
-											className="logo-project"
-										/>{" "}
+									Goodson Gardens{" "}
+									<img
+										src={ggLogo}
+										alt="Goodson Gardens logo"
+										className="logo-project"
+									/>{" "}
 								</h2>
 								<h3 className="subheading-project">
 									Local business website
-									
 								</h3>
 								<div className="links-container">
 									<h4 className="link-project">
@@ -101,15 +100,15 @@ export default function CarouselWork() {
 										<span className="highlight">
 											responsive.
 										</span>{" "}
-										Form validation with jQuery. Lightbox/modal box in gallery made with
-										JS. Toggle dot menu for mobile
-										and full menu for larger devices. Back
-										to top button to{" "}
+										Form validation with jQuery.
+										Lightbox/modal box in gallery made with
+										JS. Toggle dot menu for mobile and full
+										menu for larger devices. Back to top
+										button to{" "}
 										<span className="highlight">
 											ease navigation
 										</span>{" "}
-										Logo
-										designed in Illustrator. Visual{" "}
+										Logo designed in Illustrator. Visual{" "}
 										<span className="highlight">
 											mockups
 										</span>{" "}
@@ -206,8 +205,15 @@ export default function CarouselWork() {
 									calculators in native JavaScript. Icons
 									designed in Adobe Illustrator. Hexagonal
 									pattern on navigation bar created with SVG
-									pattern generator, <a href="https://pattern.monster/">Pattern Monster</a>. 
-									Radial gradient overlay made with <a href="https://cssgradient.io/">CSS Gradient</a>.
+									pattern generator,{" "}
+									<a href="https://pattern.monster/">
+										Pattern Monster
+									</a>
+									. Radial gradient overlay made with{" "}
+									<a href="https://cssgradient.io/">
+										CSS Gradient
+									</a>
+									.
 								</p>
 							</div>
 							<div className="logo-container">
@@ -328,7 +334,6 @@ export default function CarouselWork() {
 					</div>
 				</Carousel.Item>
 			</Carousel>
-			;
 		</div>
 	);
 }

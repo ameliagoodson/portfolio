@@ -1,34 +1,39 @@
 $hotpink: rgb(255, 10, 145);
 // hex: #FF0A91
 
+.highlight {
+	color: $hotpink;
+	font-weight: bold;
+}
+
 $breakpoints: (
 	"xsmall": 350px,
 	"small": 450px,
 	"medium": 768px,
 	"large": 1024px,
 	"xlarge": 1200px,
-	"xxlarge": 1201px,
+	"xxlarge": 1400px,
 ) !default;
 
 @mixin breakpoint($point) {
 	@if $point == xxlarge {
-		@media (min-width: 1201px) {
+		@media (min-width: 1400px) {
 			@content;
 		}
 	} @else if $point == xlarge {
-		@media (max-width: 1200px) {
+		@media (min-width: 1200px) {
 			@content;
 		}
 	} @else if $point == large {
-		@media (max-width: 1024px) {
+		@media (min-width: 1024px) {
 			@content;
 		}
 	} @else if $point == medium {
-		@media (max-width: 769px) {
+		@media (min-width: 768px) {
 			@content;
 		}
 	} @else if $point == small {
-		@media (max-width: 450px) {
+		@media (min-width: 450px) {
 			@content;
 		}
 	} @else if $point == xsmall {

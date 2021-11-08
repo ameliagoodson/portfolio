@@ -12,7 +12,6 @@
 	padding-top: 0;
 }
 .container-navbar {
-	padding: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -24,7 +23,8 @@
 .brand {
 	display: flex;
 	align-items: center;
-	font-size: 2rem;
+	letter-spacing: 0px;
+	font-size: 1.5rem;
 	text-decoration: none;
 	font-family: "Rockout";
 	color: $hotpink;
@@ -33,12 +33,12 @@
 		color: white;
 	}
 
-	@include breakpoint(small) {
-		letter-spacing: 0px;
+	@include breakpoint(medium) {
+		font-size: 2rem;
 	}
 	.logo-brand {
 		height: 45px;
-		margin: 0 10px;
+		margin: 0 1 0px;
 	}
 }
 .left {
@@ -46,23 +46,23 @@
 	flex-direction: row;
 	position: relative;
 	text-align: center;
-	padding-left: 10px;
+	padding-left: 20px;
 
 	p {
 		margin: 0;
 	}
-	@include breakpoint(medium) {
-		display: block;
+	@include breakpoint(large) {
+		display: flex;
 		text-align: left;
 	}
 }
 .contact-container {
-	display: flex;
+	display: none;
 	align-items: center;
 	justify-content: center;
 	margin-left: 10px;
 	@include breakpoint(medium) {
-		display: none;
+		display: flex;
 	}
 }
 .icon-email {
@@ -72,4 +72,6 @@
 .hamburger {
 	cursor: pointer;
 	color: white;
+	margin-right: 10px;
+	z-index: 10;
 }

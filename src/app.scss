@@ -1,14 +1,17 @@
+@import "./global.scss";
+
 .app {
-	min-height: 100vh;
 	background-color: black;
+	height: 100vh;
 
 	.sections {
+		background-color: black;
 		overflow-x: hidden;
+		height: 100vh;
 		width: 100%;
-		height: calc(100vh - 70px);
 		position: relative;
-		top: 0px;
-		scroll-snap-type: y mandatory;
+		top: 70px;
+		scroll-snap-type: y proximity;
 		scrollbar-width: none;
 		&::-webkit-scrollbar {
 			display: none;
@@ -16,46 +19,33 @@
 		scroll-behavior: smooth;
 		.intro {
 			width: 100vw;
-			height: calc(100vh - 70px);
+			height: 100vh;
+			min-height: fit-content;
 			scroll-snap-align: start;
 		}
 		.portfolio {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			width: 100vw;
-			height: 100vh;
+			height: 150vh;
+			min-height: fit-content;
 			scroll-snap-align: start;
 			padding: 20px;
+			margin: 20px 0px;
+			@include breakpoint(medium) {
+				height: 100vh;
+			}
 		}
 		.contact {
 			width: 100vw;
-			height: calc(100vh);
+			height: 100vh;
 			scroll-snap-align: start;
+			margin: 30px auto;
+		}
+		.about {
+			width: 100vw;
+			height: 150vh;
+			scroll-snap-align: start;
+			display: block;
+			margin: auto;
+			padding: 30px auto 0 auto;
 		}
 	}
 }
-
-// .app {
-// 	height: 100vh;
-
-// 	.sections {
-// 		overflow-x: hidden;
-// 		width: 100%;
-// 		height: calc(100vh - 100px);
-// 		position: relative;
-// 		top: 0px;
-// 		scroll-snap-type: y mandatory;
-// 		scrollbar-width: none;
-// 		&::-webkit-scrollbar {
-// 			display: none;
-// 		}
-// 		scroll-behavior: smooth;
-// 		> * {
-// 			width: 100vw;
-// 			height: calc(100vh - 100px);
-// 			scroll-snap-align: start;
-// 		}
-// 	}
-// }
