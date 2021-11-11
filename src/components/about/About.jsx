@@ -26,15 +26,13 @@ export default function About() {
 				</p>
 				<p>
 					I have experience in maintaining corporate
-					websites and producing website content that
-					adheres to brand style guides, engages
-					stakeholders and delivers conversions. With
-					certifications in full stack development, UX
-					Design, IT support, digital marketing, business
-					and law, I'm looking to build on these skills
-					further to continue to create functional,
-					accessible and responsive websites from the
-					initial wireframing to deployment.
+					websites and creating content that adheres to
+					brand style guides, engages stakeholders and
+					delivers conversions. With certifications in full
+					stack development, UX Design, IT support, digital
+					marketing, business and law, I'm looking to build
+					on these skills to create seamless websites that
+					are both smart and beautiful.
 				</p>
 				<h2>Tech skills</h2>
 				<ul className="list-skills">
@@ -53,6 +51,7 @@ export default function About() {
 				<ul className="list-skills">
 					<li>Professional communications</li>
 					<li>Policy writing and research</li>
+					<li>Documentation writing and user training </li>
 					<li>Copywriting and proofreading</li>
 				</ul>
 			</div>
