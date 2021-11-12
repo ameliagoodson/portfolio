@@ -13,8 +13,8 @@ export default function Contact() {
 		);
 	}
 	return (
-		<div className="contact" id="contact">
-			<h1>CONTACT</h1>
+		<div className="contact">
+			<h1 id="contact">CONTACT</h1>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor="email">Email Address</label>
 				<input

@@ -5,6 +5,7 @@ import { init } from "ityped";
 import spiderwebTop from "../../assets/spider-web-top_1.svg";
 import resume from "../../assets/Resume-Amelia-Goodson.pdf";
 import linkedInLogo from "../../assets/logos/linkedin.png";
+import { Link } from "react-router-dom";
 
 export default function Intro() {
 	const textRef = useRef();
@@ -37,9 +38,12 @@ export default function Intro() {
 			</div>
 			<div className="btn-container">
 				<button className="btn-portfolio">
-					<a href="#portfolio" className="anchor-portfolio">
+					<Link
+						to="/portfolio"
+						className="anchor-portfolio"
+					>
 						Portfolio
-					</a>
+					</Link>
 				</button>
 				<div className="links-container">
 					<a href={resume} className="link-resume">

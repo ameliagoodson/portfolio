@@ -1,15 +1,16 @@
 import "./navbar.scss";
 import EmailIcon from "@mui/icons-material/Email";
 import { Divide as Hamburger } from "hamburger-react";
+import { Link } from "react-router-dom";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
 	return (
 		<div className={"navbar " + (menuOpen && "active")}>
 			<div className="container-navbar">
 				<div className="left">
-					<a href="#intro" className="brand">
+					<Link to="/" className="brand" id="home">
 						Amelia Goodson
-					</a>
+					</Link>
 					<div className="contact-container">
 						<EmailIcon className="icon-email" />
 						<p>ameliajanegoodson@gmail.com</p>

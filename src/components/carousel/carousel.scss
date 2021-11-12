@@ -52,10 +52,13 @@
 .carousel-control-next,
 .carousel-control-prev {
 	opacity: 0.7 !important;
-	top: -50px !important;
-	bottom: auto !important;
+	top: 50px !important;
 	align-items: inherit !important;
 	overflow-x: visible !important;
+	height: 200px;
+	@include breakpoint(medium) {
+		top: -40px !important;
+	}
 	&:hover {
 		opacity: 1 !important;
 	}
@@ -63,8 +66,8 @@
 
 .carousel-control-next-icon {
 	background-image: url(../../assets/arrow-next-pink.svg) !important;
-	width: 2.5rem !important;
-	height: 2.5rem !important;
+	width: 2rem !important;
+	height: 2rem !important;
 	opacity: 1 !important;
 	z-index: 99999 !important;
 	overflow-x: visible !important;
@@ -72,8 +75,8 @@
 .carousel-control-prev-icon {
 	background-image: url(../../assets/arrow-next-pink.svg) !important;
 	transform: rotate(180deg);
-	width: 2.5rem !important;
-	height: 2.5rem !important;
+	width: 2rem !important;
+	height: 2rem !important;
 	opacity: 1;
 	z-index: 99999 !important;
 	overflow-x: visible !important;

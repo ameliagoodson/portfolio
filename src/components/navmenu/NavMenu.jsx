@@ -1,5 +1,6 @@
 import React from "react";
 import "./navmenu.scss";
+import { Link } from "react-router-dom";
 
 export default function NavMenu({ menuOpen, setMenuOpen }) {
 	return (
@@ -7,19 +8,25 @@ export default function NavMenu({ menuOpen, setMenuOpen }) {
 			{/* //if menuOpen is true, add active class */}
 			<ul>
 				<li onClick={() => setMenuOpen(false)}>
-					<a href="#intro" className="nav-link">
+					<Link to="/" className="nav-link">
 						Home
-					</a>
+					</Link>
 				</li>
 				<li onClick={() => setMenuOpen(false)}>
-					<a href="#portfolio">Portfolio</a>
+					<Link to="/portfolio" className="nav-link">
+						Portfolio
+					</Link>
 				</li>
 				<li onClick={() => setMenuOpen(false)}>
-					<a href="#contact">Contact</a>
+					<Link to="/contact" className="nav-link">
+						Contact
+					</Link>
 				</li>
 
 				<li onClick={() => setMenuOpen(false)}>
-					<a href="#about">About</a>
+					<Link to="/about" className="nav-link">
+						About
+					</Link>
 				</li>
 			</ul>
 		</div>

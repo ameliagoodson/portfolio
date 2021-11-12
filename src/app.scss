@@ -2,40 +2,41 @@
 
 .app {
 	background-color: black;
-	height: 100%;
+	min-height: 100vh;
+	width: 100vw;
 
-	.sections {
+	main {
 		background-color: black;
 		overflow-x: hidden;
 		height: 100%;
 		width: 100%;
 		position: relative;
-		top: 70px;
+		// top: 70px;
 		scrollbar-width: none;
 		&::-webkit-scrollbar {
 			display: none;
 		}
 		scroll-behavior: smooth;
-		.intro {
-			width: 100vw;
-			height: 100vh;
-		}
-		.portfolio {
-			height: fit-content;
-			padding: 20px;
-			margin: 20px 0px;
-		}
-		.contact {
-			width: 100vw;
-			height: 100vh;
-			margin: 30px 0px;
-		}
-		.about {
-			width: 100vw;
-			height: fit-content;
-			display: block;
-			margin: auto;
-			padding: 30px 0px 50px 0px;
-		}
+		// .intro {
+		// 	width: 100vw;
+		// 	height: 100vh;
+		// }
+		// .portfolio {
+		// 	height: fit-content;
+		// 	padding: 20px;
+		// 	margin: 50px 0px;
+		// }
+		// .contact {
+		// 	width: 100vw;
+		// 	height: 100vh;
+		// 	margin: 30px 0px;
+		// }
+		// .about {
+		// 	width: 100vw;
+		// 	height: fit-content;
+		// 	display: block;
+		// 	margin: auto;
+		// 	padding: 30px 0px 50px 0px;
+		// }
 	}
 }

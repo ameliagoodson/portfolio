@@ -1,5 +1,5 @@
 {
-    "homepage": "https://ameliagoodson.com",
+  "homepage": "https://ameliagoodson.com",
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
@@ -22,12 +22,13 @@
     "react-bootstrap": "^2.0.0-rc.0",
     "react-dom": "^17.0.2",
     "react-responsive-carousel": "^3.2.21",
+    "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

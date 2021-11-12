@@ -2,9 +2,9 @@ import "./about.scss";
 
 export default function About() {
 	return (
-		<div className="about" id="about">
+		<div className="about">
 			<div className="about-container">
-				<h1>ABOUT</h1>
+				<h1 id="about">ABOUT</h1>
 				<p>
 					{" "}
 					Hi, I'm Amelia. I'm an inquisitive and driven web

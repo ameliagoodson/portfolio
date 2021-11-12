@@ -1,6 +1,7 @@
 @import "../../global.scss";
 
 .intro {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	background-color: black;
@@ -26,6 +27,8 @@
 		left: 0px;
 		top: 0px;
 		width: 800px;
+		overflow: hidden;
+		opacity: 0.5;
 	}
 }
 .cta {
