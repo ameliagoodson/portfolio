@@ -6,7 +6,7 @@
 	align-items: center;
 	flex-direction: column;
 	position: relative;
-	margin-top: 20px;
+	margin-top: 80px;
 	h1 {
 		font-size: 2rem;
 		color: $hotpink;
@@ -18,8 +18,11 @@
 		bottom: 0px;
 		right: 0px;
 		position: absolute;
+		opacity: 0.5;
+		z-index: 1;
 	}
 	form {
+		z-index: 2;
 		min-height: fit-content;
 		background-color: rgb(0, 0, 0);
 		max-width: 400px;

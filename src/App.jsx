@@ -10,7 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
 	BrowserRouter as Router,
 	Route,
-	Switch,
+	// Switch,
 } from "react-router-dom";
 
 function App() {
@@ -27,16 +27,10 @@ function App() {
 					setMenuOpen={setMenuOpen}
 				/>
 				<main>
-					<Switch>
-						<Route path="/" component={Intro} exact />
-						<Route
-							path="/portfolio"
-							component={Portfolio}
-						/>
-						<Route path="/contact" component={Contact} />
-						<Route path="/about" component={About} />
-						<Route component={Error} />
-					</Switch>
+					<Route path="/" component={Intro} exact />
+					<Route path="/portfolio" component={Portfolio} />
+					<Route path="/contact" component={Contact} />
+					<Route path="/about" component={About} />
 				</main>
 			</div>
 		</Router>
