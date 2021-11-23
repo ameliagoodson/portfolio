@@ -1,6 +1,8 @@
 import "./about.scss";
 import "../../global.scss";
 import { Link } from "react-router-dom";
+import photo1 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.jpg";
+import photo2 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-02.jpg";
 
 export default function About() {
 	return (
@@ -11,38 +13,58 @@ export default function About() {
 					Originally from the Blue Mountains in Sydney, I
 					enjoyed a childhood surrounded by nature before
 					escaping surburbia at 18 to move to 'the city'. I
-					pursued a degree and career in law in Sydney then
-					London without much heart until I learnt about
-					nascent technologies like smart contracts and AI
-					judicial analysis. I wrote a few research papers
-					and my thesis on tech law issues, looking at
-					potential liability frameworks (in non-lawyer
-					speak: who's guilty here?) for fully autonmous
-					vehicles as well as technology in healthcare
-					applications, like robot-assisted surgery and
-					image recognition systems that can detect cancers.
-					I've always been fascinated by the future and as I
-					researched and wrote, I found myself - three
-					quarters of the way through law - far more
-					interested in pursuing a career in technology.{" "}
+					pursued a degree in law in Sydney then London
+					without much heart until I learnt about nascent
+					technologies like smart contracts and AI judicial
+					analysis. I wrote some papers on tech law issues,
+					evaluating liability frameworks (in non-lawyer
+					speak: who's guilty here?) for personal injuries
+					involving autonmous vehicles and AI in healthcare,
+					like robot-assisted surgery and image recognition
+					for detecting cancers. I've always been fascinated
+					by the future and as I researched and wrote, I
+					found myself - three quarters of the way through
+					law - far more interested in pursuing a career in
+					technology.{" "}
 				</p>
+				<figure>
+					<img
+						src={photo1}
+						alt="Blonde woman sits at desk with laptop open showing coding on the screen"
+						className="photo-square"
+					></img>
+					<figcaption>
+						I look less like a stock photo in person
+					</figcaption>
+				</figure>
 				<p>
 					So, before the ink was fresh on the transcript, I
-					finished my degree and promptly enrolled in a Full
-					Stack Web Development Boot Camp. Sure, making
-					pretty designs (I also did a UX Design course) and
-					seamless user interfaces is a far cry from Teslas,
-					but the fit was right. I also did an IT Support
-					Course just to be sure. It feels nice to finally
-					know what I'm going to be when I 'grow up'. I'm a
-					life long student, though, and my 'to learn' list
-					would probably make your eyes water.
+					promptly enrolled in a Full Stack Web Development
+					Boot Camp. Sure, making pretty designs (I also did
+					a UX Design course) and seamless user interfaces
+					is a far cry from robots and Teslas, but the fit
+					was right. I also did an IT Support Course just to
+					be sure. It feels nice to finally know what I'm
+					going to be when I 'grow up'. I'm a life long
+					student, though, and my 'to learn' list would
+					probably make your eyes water.
 				</p>
 				<p>
 					In my spare time when I'm not designing, coding,
 					or wondering why my code doesn't work, I like to
 					garden, game, and cook extravagant meals that take
 					five hours to make and five minutes to eat.
+					<figure>
+						<img
+							src={photo2}
+							alt="Blonde woman sits at desk with laptop staring out the window"
+							className="photo-square"
+						></img>
+						<figcaption>
+							I fixed that one thing but now two other
+							things are broken.
+						</figcaption>
+					</figure>
 					Travelling and experiencing different cultures,
 					cuisine and landscapes is my greatest passion and
 					I hope to see at least one country a year on

@@ -11,6 +11,7 @@
 		@include breakpoint(large) {
 			width: 50%;
 		}
+
 		h1 {
 			font-size: 2rem;
 			color: $hotpink;
@@ -26,6 +27,16 @@
 		p,
 		li {
 			color: white;
+		}
+
+		figure {
+			margin-top: 20px;
+			figcaption {
+				color: rgba(255, 255, 255, 0.5);
+			}
+			.photo-square {
+				height: 200px;
+			}
 		}
 	}
 }

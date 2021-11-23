@@ -8,13 +8,7 @@
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	h1 {
-		font-size: 4rem;
-		font-family: "Rockout";
-		letter-spacing: 10px;
-		color: $hotpink;
-		text-align: center;
-	}
+
 	h2 {
 		color: white;
 		font-size: 2rem;
@@ -29,78 +23,86 @@
 		width: 800px;
 		overflow: hidden;
 		opacity: 0.5;
+		z-index: 0;
 	}
-}
-.cta {
-	text-align: center;
-	top: -150px;
-	.web-logo {
-		display: block;
-		margin: auto;
-		@include breakpoint(medium) {
-			display: inline;
-		}
-	}
-}
-
-.btn-container {
-	z-index: 1;
-	display: flex;
-	flex-direction: column;
-	.btn-portfolio {
-		background-color: black;
-		padding: 10px;
-		outline: none;
-		border: none;
-		.anchor-portfolio {
-			border: solid 3px white;
-			padding: 5px;
-			color: white;
-			text-decoration: none;
-			font-size: 30px;
-			font-family: "Brass Mono";
-			&:hover {
-				cursor: pointer;
-				color: $hotpink;
-			}
-		}
-	}
-
-	h3 {
-		font-size: 1.3rem;
+	.cta {
 		text-align: center;
-		margin-bottom: 0;
-	}
-}
-.intro-container {
-	z-index: 10;
-	.intro-para {
-		color: white;
-		max-width: 400px;
-		padding: 5px;
-	}
-	.links-career {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		margin-top: 20px;
-		h3 {
-			font-size: 1.2rem;
-		}
-		.link-resume {
-			color: $hotpink;
-			text-decoration: none;
-
-			&:hover {
-				color: white;
+		top: -150px;
+		z-index: 1;
+		.brand-large {
+			height: 60px;
+			display: block;
+			@include breakpoint(medium) {
+				height: 100px;
 			}
 		}
-		.link-linkedin {
-			color: $hotpink;
-			text-decoration: none;
+	}
+	.intro-container {
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
-			&:hover {
+		.btn-container {
+			z-index: 1;
+			display: flex;
+			flex-direction: column;
+			.btn-portfolio {
+				background-color: black;
+				padding: 10px;
+				outline: none;
+				border: none;
+				.anchor-portfolio {
+					border: solid 3px white;
+					padding: 5px;
+					color: white;
+					text-decoration: none;
+					font-size: 30px;
+					font-family: "Brass Mono";
+					&:hover {
+						cursor: pointer;
+						color: $hotpink;
+					}
+				}
+			}
+
+			h3 {
+				font-size: 1.3rem;
+				text-align: center;
+				margin-bottom: 0;
+			}
+		}
+		.intro-para-container {
+			.intro-para {
 				color: white;
+				max-width: 400px;
+				padding: 5px;
+			}
+			.links-career {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				margin-top: 20px;
+				h3 {
+					font-size: 1.2rem;
+				}
+				.link-resume {
+					color: $hotpink;
+					text-decoration: none;
+
+					&:hover {
+						color: white;
+					}
+				}
+				.link-linkedin {
+					color: $hotpink;
+					text-decoration: none;
+
+					&:hover {
+						color: white;
+					}
+				}
 			}
 		}
 	}
