@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0bcc1a7.chunk.css",
-    "main.js": "/static/js/main.b50beef3.chunk.js",
-    "main.js.map": "/static/js/main.b50beef3.chunk.js.map",
+    "main.css": "/static/css/main.4788758c.chunk.css",
+    "main.js": "/static/js/main.c7c899c1.chunk.js",
+    "main.js.map": "/static/js/main.c7c899c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -10,9 +10,13 @@
     "static/js/2.d33768b7.chunk.js.map": "/static/js/2.d33768b7.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.f0bcc1a7.chunk.css.map": "/static/css/main.f0bcc1a7.chunk.css.map",
+    "static/css/main.4788758c.chunk.css.map": "/static/css/main.4788758c.chunk.css.map",
     "static/js/2.d33768b7.chunk.js.LICENSE.txt": "/static/js/2.d33768b7.chunk.js.LICENSE.txt",
     "static/media/navmenu.scss": "/static/media/Voice-in-my-Head.2110c21e.otf",
+    "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg",
+    "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.5bb17e1f.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.5bb17e1f.jpg",
+    "static/media/Brand-large-white-text-black-background.b5c1e8e9.png": "/static/media/Brand-large-white-text-black-background.b5c1e8e9.png",
+    "static/media/Brand-small-white-text-black-background.a1617836.png": "/static/media/Brand-small-white-text-black-background.a1617836.png",
     "static/media/Resume-Amelia-Goodson.84ac49be.pdf": "/static/media/Resume-Amelia-Goodson.84ac49be.pdf",
     "static/media/accessibility.23e70a19.png": "/static/media/accessibility.23e70a19.png",
     "static/media/adobe-illustrator.1b1b6c2b.png": "/static/media/adobe-illustrator.1b1b6c2b.png",
@@ -27,15 +31,14 @@
     "static/media/mobile-Calcul823.664acdca.png": "/static/media/mobile-Calcul823.664acdca.png",
     "static/media/mobile-Goodson-Gardens.e6a65ea7.png": "/static/media/mobile-Goodson-Gardens.e6a65ea7.png",
     "static/media/mobile-your-news.818d5431.png": "/static/media/mobile-your-news.818d5431.png",
-    "static/media/spider-web-logo-small.88be41b8.png": "/static/media/spider-web-logo-small.88be41b8.png",
-    "static/media/spider-web-top_1.924ce5d3.svg": "/static/media/spider-web-top_1.924ce5d3.svg",
+    "static/media/spider-web-top-transparent-background-transparent.09fc407e.svg": "/static/media/spider-web-top-transparent-background-transparent.09fc407e.svg",
     "static/media/spider-web2.2a535b79.svg": "/static/media/spider-web2.2a535b79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.d33768b7.chunk.js",
-    "static/css/main.f0bcc1a7.chunk.css",
-    "static/js/main.b50beef3.chunk.js"
+    "static/css/main.4788758c.chunk.css",
+    "static/js/main.c7c899c1.chunk.js"
   ]
 }
