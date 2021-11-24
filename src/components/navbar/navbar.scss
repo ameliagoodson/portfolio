@@ -21,7 +21,17 @@
 	}
 }
 .brand-small {
-	height: 60px;
+	width: 100%;
+	@include breakpoint(medium) {
+		display: none;
+	}
+}
+
+.brand-large {
+	display: none;
+	@include breakpoint(medium) {
+		display: block;
+	}
 }
 .brand {
 	display: flex;

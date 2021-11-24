@@ -2,7 +2,8 @@ import "./navbar.scss";
 import EmailIcon from "@mui/icons-material/Email";
 import { Divide as Hamburger } from "hamburger-react";
 import { Link } from "react-router-dom";
-import brand from "../../assets/logos/Brand-small-subtitle-white-text-black-background.png";
+import brandLarge from "../../assets/logos/Brand-large-subtitle-white-text-black-background-60px.png";
+import brandSmall from "../../assets/logos/Brand-small-no-subtitle-white-text-black-background.png";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
 	return (
@@ -11,8 +12,13 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
 				<div className="left">
 					<Link to="/" className="brand" id="home">
 						<img
-							src={brand}
-							alt="Amelia Goodson brand"
+							src={brandLarge}
+							alt="Amelia Goodson brand - Web Developer / Engineer / Designer"
+							className="brand-large"
+						></img>
+						<img
+							src={brandSmall}
+							alt="Amelia Goodson brand - Web Developer"
 							className="brand-small"
 						></img>
 					</Link>

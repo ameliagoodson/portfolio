@@ -3,19 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 452 116.3" style="enable-background:new 0 0 452 116.3;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Rockout';}
-	.st2{font-size:58.8707px;}
-	.st3{fill:#FF01CB;}
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Rockout';}
+	.st3{font-size:58.8707px;}
+	.st4{fill:#FF01CB;}
 </style>
 <g>
-	<rect width="416.5" height="65.2"/>
+	<rect class="st0" width="416.5" height="65.2"/>
 </g>
 <g id="Brand">
-	<text transform="matrix(1 0 0 1 3.1074 50.423)" class="st0 st1 st2">AMELIA GOODS      </text>
-	<text transform="matrix(1 0 0 1 384.2 50.4231)" class="st0 st1 st2">N</text>
+	<text transform="matrix(1 0 0 1 3.1074 50.423)" class="st1 st2 st3">AMELIA GOODS      </text>
+	<text transform="matrix(1 0 0 1 384.2 50.4231)" class="st1 st2 st3">N</text>
 </g>
-<path class="st3" d="M388.5,40L388.5,40C388.5,39.9,388.5,39.9,388.5,40c0-0.1,0-0.1,0-0.2v-0.1c0,0,0,0,0-0.1v-0.1v-0.1
+<path class="st4" d="M388.5,40L388.5,40C388.5,39.9,388.5,39.9,388.5,40c0-0.1,0-0.1,0-0.2v-0.1c0,0,0,0,0-0.1v-0.1v-0.1
 	c0,0,0-0.1-0.1-0.1l0,0l-0.1-0.1l0,0l-0.1-0.1c-4.1-2.2-5.6-7.2-3.4-11.3c0.7-1.3,1.7-2.4,3-3.2l0,0l0,0c0,0,0.1,0,0.1-0.1l0,0
 	l0.1-0.1l0,0c0,0,0-0.1,0.1-0.1c0,0,0,0,0-0.1v-0.1c0,0,0,0,0-0.1v-0.1V24c0-0.1,0-0.1,0-0.1s0-0.1-0.1-0.1l0,0c0,0,0-0.1-0.1-0.1
 	l0,0c0,0,0,0-0.1-0.1l0,0l-0.1-0.1l0,0c0,0-0.1,0-0.1-0.1l0,0h-0.1h-0.1l0,0c-4.6-0.2-8.2-4-8-8.6c0.1-1.4,0.5-2.8,1.2-4

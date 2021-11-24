@@ -7,7 +7,8 @@ import resume from "../../assets/Resume-Amelia-Goodson.pdf";
 import linkedInLogo from "../../assets/logos/linkedin.png";
 import { Link } from "react-router-dom";
 import About from "../about/About";
-import brand from "../../assets/logos/Brand-large-no-subtitle-white-text-black-background.png";
+import brand60 from "../../assets/logos/Brand-large-no-subtitle-white-text-no-background-55px.png";
+import brand80 from "../../assets/logos/Brand-large-no-subtitle-white-text-no-background-80px.png";
 
 export default function Intro() {
 	const textRef = useRef();
@@ -35,9 +36,14 @@ export default function Intro() {
 				></img>
 				<div className="cta">
 					<img
-						src={brand}
+						src={brand60}
 						alt="Amelia Goodson brand"
-						className="brand-large"
+						className="brand-intro-small"
+					></img>
+					<img
+						src={brand80}
+						alt="Amelia Goodson brand"
+						className="brand-intro-large"
 					></img>
 					<h2>
 						<span ref={textRef}></span>

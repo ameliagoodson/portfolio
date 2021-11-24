@@ -29,15 +29,19 @@
 		text-align: center;
 		top: -150px;
 		z-index: 1;
-		.brand-large {
-			display: none;
-
+		.brand-intro-small {
+			width: 100%;
 			@include breakpoint(small) {
-				height: 60px;
-				display: block;
+				height: 55px;
 			}
 			@include breakpoint(medium) {
-				height: 100px;
+				display: none;
+			}
+		}
+		.brand-intro-large {
+			display: none;
+			@include breakpoint(medium) {
+				display: block;
 			}
 		}
 	}
