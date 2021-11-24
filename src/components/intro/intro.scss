@@ -30,8 +30,12 @@
 		top: -150px;
 		z-index: 1;
 		.brand-large {
-			height: 60px;
-			display: block;
+			display: none;
+
+			@include breakpoint(small) {
+				height: 60px;
+				display: block;
+			}
 			@include breakpoint(medium) {
 				height: 100px;
 			}

@@ -7,7 +7,7 @@ import resume from "../../assets/Resume-Amelia-Goodson.pdf";
 import linkedInLogo from "../../assets/logos/linkedin.png";
 import { Link } from "react-router-dom";
 import About from "../about/About";
-import brand from "../../assets/logos/Brand-large-white-text-black-background.png";
+import brand from "../../assets/logos/Brand-large-no-subtitle-white-text-black-background.png";
 
 export default function Intro() {
 	const textRef = useRef();

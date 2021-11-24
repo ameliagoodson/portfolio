@@ -2,7 +2,7 @@ import "./navbar.scss";
 import EmailIcon from "@mui/icons-material/Email";
 import { Divide as Hamburger } from "hamburger-react";
 import { Link } from "react-router-dom";
-import brand from "../../assets/logos/Brand-small-white-text-black-background.png";
+import brand from "../../assets/logos/Brand-small-subtitle-white-text-black-background.png";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
 	return (
