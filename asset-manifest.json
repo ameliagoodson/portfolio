@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c4ddf014.chunk.css",
-    "main.js": "/static/js/main.f0de2bcd.chunk.js",
-    "main.js.map": "/static/js/main.f0de2bcd.chunk.js.map",
+    "main.js": "/static/js/main.564cce45.chunk.js",
+    "main.js.map": "/static/js/main.564cce45.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.2a881f9d.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.2a881f9d.jpg",
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-black-thinking-small.878ad906.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-black-thinking-small.878ad906.jpg",
     "static/media/Brand-large-no-subtitle-white-text-no-background-origsize.6c41f410.png": "/static/media/Brand-large-no-subtitle-white-text-no-background-origsize.6c41f410.png",
-    "static/media/Brand-large-no-subtitle-white-text-no-background.9b6cf31c.svg": "/static/media/Brand-large-no-subtitle-white-text-no-background.9b6cf31c.svg",
+    "static/media/Brand-large-no-subtitle-white-text-no-background.ed8ad601.svg": "/static/media/Brand-large-no-subtitle-white-text-no-background.ed8ad601.svg",
     "static/media/Brand-large-subtitle-white-text-black-background-60px.ae6adf16.png": "/static/media/Brand-large-subtitle-white-text-black-background-60px.ae6adf16.png",
     "static/media/Resume-Amelia-Goodson.84ac49be.pdf": "/static/media/Resume-Amelia-Goodson.84ac49be.pdf",
     "static/media/accessibility.23e70a19.png": "/static/media/accessibility.23e70a19.png",
@@ -41,6 +41,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.2173e263.chunk.js",
     "static/css/main.c4ddf014.chunk.css",
-    "static/js/main.f0de2bcd.chunk.js"
+    "static/js/main.564cce45.chunk.js"
   ]
 }
