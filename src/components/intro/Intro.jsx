@@ -63,10 +63,9 @@ export default function Intro() {
 					<div className="intro-para-container">
 						<div className="intro-para">
 							{" "}
-							Hey, I'm Amelia. I like designing and coding
-							websites that are easy to use and nice to look
-							at. I made this site and I think it's pretty
-							nice. Click{" "}
+							Hey, I'm Amelia. I create websites that are
+							easy to use and nice to look at. I made this
+							site and I think it's pretty nice. Click{" "}
 							<Link to="/portfolio" className="highlight">
 								{" "}
 								here{" "}

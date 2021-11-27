@@ -34,6 +34,31 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
 					>
 						<Hamburger />
 					</div>
+					<div className="large-menu">
+						<ul className="large-menu-list">
+							<li>
+								<Link to="/" className="nav-link">
+									Home
+								</Link>
+							</li>
+							<li>
+								<Link to="/portfolio" className="nav-link">
+									Portfolio
+								</Link>
+							</li>
+							<li>
+								<Link to="/contact" className="nav-link">
+									Contact
+								</Link>
+							</li>
+
+							<li>
+								<Link to="/about" className="nav-link">
+									About
+								</Link>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

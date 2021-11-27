@@ -1,20 +1,36 @@
 import "./contact.scss";
+import "../../global.scss";
 import { useForm, ValidationError } from "@formspree/react";
 import spiderWeb2 from "../../assets/spider-web2.svg";
+import photoBlack from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-black-thinking-small.jpg";
 
 export default function Contact() {
 	const [state, handleSubmit] = useForm("meqvwkgl");
 	if (state.succeeded) {
 		return (
 			<div className="response">
-				Thank you for your email. I'll get back to you as
-				soon as possible.
+				<p className="response-text">
+					Thanks for your email, it's nice to hear from you.
+					I'll get back to you as soon as possible.
+				</p>
+				<figure>
+					<img
+						src={photoBlack}
+						alt="Amelia Goodson, blonde woman sits at desk in front of laptop, looking inspired, smiling slightly"
+						className="photo-contact"
+					></img>
+					<figcaption>
+						I'm already thinking of a brilliant reply
+					</figcaption>
+				</figure>
 			</div>
 		);
 	}
 	return (
 		<div className="contact">
-			<h1 id="contact">CONTACT</h1>
+			<h1 id="contact" className="page-heading">
+				CONTACT
+			</h1>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor="email">Email Address</label>
 				<input

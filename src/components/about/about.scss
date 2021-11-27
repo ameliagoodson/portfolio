@@ -12,18 +12,6 @@
 			width: 50%;
 		}
 
-		h1 {
-			font-size: 2rem;
-			color: $hotpink;
-			font-family: "Rockout";
-			text-align: center;
-		}
-		h2 {
-			font-size: 1.5rem;
-			color: $hotpink;
-			font-family: "Brass Mono";
-			text-align: center;
-		}
 		p,
 		li {
 			color: white;
@@ -31,11 +19,14 @@
 
 		figure {
 			margin-top: 20px;
-			figcaption {
-				color: rgba(255, 255, 255, 0.5);
+			@include breakpoint(medium) {
 			}
+
 			.photo-square {
-				height: 200px;
+				height: 250px;
+				@include breakpoint(medium) {
+					height: 350px;
+				}
 			}
 		}
 	}

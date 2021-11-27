@@ -7,12 +7,7 @@
 	flex-direction: column;
 	position: relative;
 	margin-top: 80px;
-	h1 {
-		font-size: 2rem;
-		color: $hotpink;
-		font-family: "Rockout";
-		text-align: center;
-	}
+
 	.spiderweb-bottom {
 		width: 700px;
 		bottom: 0px;
@@ -32,8 +27,8 @@
 		flex-direction: column;
 		label {
 			color: white;
-			font-family: "Brass Mono";
-			font-size: 2rem;
+
+			font-size: 1.5rem;
 		}
 		input {
 			padding: 10px;
@@ -66,8 +61,22 @@
 }
 
 .response {
-	// height: 100vh;
 	background-color: black;
-	color: white;
 	text-align: center;
+	width: 100%;
+	margin-top: 80px;
+	@include breakpoint(medium) {
+		height: 400px;
+	}
+	.response-text {
+		color: white;
+		margin: 20px 0px;
+	}
+
+	.photo-contact {
+		height: 250px;
+		@include breakpoint(medium) {
+			height: 400px;
+		}
+	}
 }

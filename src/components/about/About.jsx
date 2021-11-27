@@ -8,7 +8,9 @@ export default function About() {
 	return (
 		<div className="about">
 			<div className="about-container">
-				<h1 id="about">ABOUT</h1>
+				<h1 id="about" className="page-heading">
+					ABOUT
+				</h1>
 				<p>
 					Originally from the Blue Mountains in Sydney, I
 					enjoyed a childhood surrounded by nature before
@@ -18,14 +20,12 @@ export default function About() {
 					technologies like smart contracts and AI judicial
 					analysis. I wrote some papers on tech law issues,
 					evaluating liability frameworks (in non-lawyer
-					speak: who's guilty here?) for personal injuries
-					involving autonmous vehicles and AI in healthcare,
-					like robot-assisted surgery and image recognition
-					for detecting cancers. I've always been fascinated
-					by the future and as I researched and wrote, I
-					found myself - three quarters of the way through
-					law - far more interested in pursuing a career in
-					technology.{" "}
+					speak: who's guilty here?) for injuries involving
+					self-driving vehicles and AI in healthcare, like
+					robot-assisted surgery. I've always been
+					fascinated by the future and as wrote my thesis, I
+					found myself far more interested in pursuing a
+					career in technology instead of law.{" "}
 				</p>
 				<figure>
 					<img
@@ -40,14 +40,13 @@ export default function About() {
 				<p>
 					So, before the ink was fresh on the transcript, I
 					promptly enrolled in a Full Stack Web Development
-					Boot Camp. Sure, making pretty designs (I also did
-					a UX Design course) and seamless user interfaces
-					is a far cry from robots and Teslas, but the fit
-					was right. I also did an IT Support Course just to
-					be sure. It feels nice to finally know what I'm
-					going to be when I 'grow up'. I'm a life long
-					student, though, and my 'to learn' list would
-					probably make your eyes water.
+					Boot Camp. Sure, making websites is a far cry from
+					robots and Teslas, but the fit was right. I also
+					did an IT Support Course just to be sure. It feels
+					nice to finally know what I'm going to be when I
+					'grow up'. I'm a life long student, though, and my
+					'to learn' list would probably make your eyes
+					water.
 				</p>
 				<p>
 					In my spare time when I'm not designing, coding,
@@ -62,10 +61,10 @@ export default function About() {
 						></img>
 						<figcaption>
 							I fixed that one thing but now two other
-							things are broken.
+							things are broken
 						</figcaption>
 					</figure>
-					Travelling and experiencing different cultures,
+					Travelling to experience different cultures,
 					cuisine and landscapes is my greatest passion and
 					I hope to see at least one country a year on
 					average until I kick the bucket (current total:
@@ -75,7 +74,7 @@ export default function About() {
 				<p>
 					{" "}
 					I'm pursuing job opportunities in web development,
-					engineering or UX Design so if you're looking to
+					engineering and UX Design so if you're looking to
 					hire, you can get in touch{" "}
 					<Link to="/contact" className="highlight">
 						here
