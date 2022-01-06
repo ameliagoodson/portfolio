@@ -21,8 +21,8 @@
 	}
 }
 .brand-small {
-	width: 100%;
 	margin: 3px;
+	height: 40px;
 	@include breakpoint(medium) {
 		display: none;
 	}
@@ -31,8 +31,8 @@
 .brand-large {
 	display: none;
 	@include breakpoint(medium) {
+		height: 60px;
 		display: block;
-		margin: 7px;
 	}
 }
 .brand {

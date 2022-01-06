@@ -3,12 +3,11 @@ import "../../global.scss";
 import { useEffect, useRef } from "react";
 import { init } from "ityped";
 import spiderwebTop from "../../assets/spider-web-top-transparent-background-transparent.svg";
-import resume from "../../assets/Resume-Amelia-Goodson.pdf";
+import resume from "../../assets/Resume-Amelia-Goodson-Web-Developer-Website.pdf";
 import linkedInLogo from "../../assets/logos/linkedin.png";
 import { Link } from "react-router-dom";
 import About from "../about/About";
-import brand60 from "../../assets/logos/Brand-large-no-subtitle-white-text-no-background-55px.png";
-import brand80 from "../../assets/logos/Brand-large-no-subtitle-white-text-no-background-80px.png";
+import brandNoSubtitle from "../../assets/logos/branding/Brand-large-no-subtitle-white-text-no-background.svg";
 
 export default function Intro() {
 	const textRef = useRef();
@@ -36,12 +35,12 @@ export default function Intro() {
 				></img>
 				<div className="cta">
 					<img
-						src={brand60}
+						src={brandNoSubtitle}
 						alt="Amelia Goodson brand"
 						className="brand-intro-small"
 					></img>
 					<img
-						src={brand80}
+						src={brandNoSubtitle}
 						alt="Amelia Goodson brand"
 						className="brand-intro-large"
 					></img>

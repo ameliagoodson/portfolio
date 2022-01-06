@@ -3,6 +3,7 @@ import "../../global.scss";
 import { Link } from "react-router-dom";
 import photo1 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.jpg";
 import photo2 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-02.jpg";
+// import AccordionAbout from "../accordionAbout/AccordionAbout";
 
 export default function About() {
 	return (
@@ -11,21 +12,20 @@ export default function About() {
 				<h1 id="about" className="page-heading">
 					ABOUT
 				</h1>
+				{/* <AccordionAbout /> */}
 				<p>
-					Originally from the Blue Mountains in Sydney, I
-					enjoyed a childhood surrounded by nature before
-					escaping surburbia at 18 to move to 'the city'. I
-					pursued a degree in law in Sydney then London
-					without much heart until I learnt about nascent
-					technologies like smart contracts and AI judicial
-					analysis. I wrote some papers on tech law issues,
-					evaluating liability frameworks (in non-lawyer
-					speak: who's guilty here?) for injuries involving
-					self-driving vehicles and AI in healthcare, like
-					robot-assisted surgery. I've always been
-					fascinated by the future and as wrote my thesis, I
-					found myself far more interested in pursuing a
-					career in technology instead of law.{" "}
+					I enjoyed a childhood surrounded by nature in the
+					Blue Mountains near Sydney before escaping
+					surburbia at 18 to move to 'the city'. I pursued a
+					degree in law in Sydney then London without much
+					heart until I discovered tech law. In non-lawyer
+					speak, I researched who could be held responsible
+					for injuries caused by artificial intelligence
+					(AI). Who pays when someone dies due to a
+					self-driving car malfunction, or robot-assisted
+					surgery? I've always been fascinated by the future
+					and as I wrote my Honours thesis, I found myself
+					thinking about a career in technology.{" "}
 				</p>
 				<figure>
 					<img
@@ -34,42 +34,46 @@ export default function About() {
 						className="photo-square"
 					></img>
 					<figcaption>
-						I look less like a stock photo in person
+						I look less like a stock photo in person (worse
+						posture)
 					</figcaption>
 				</figure>
 				<p>
-					So, before the ink was fresh on the transcript, I
-					promptly enrolled in a Full Stack Web Development
-					Boot Camp. Sure, making websites is a far cry from
-					robots and Teslas, but the fit was right. I also
-					did an IT Support Course just to be sure. It feels
-					nice to finally know what I'm going to be when I
-					'grow up'. I'm a life long student, though, and my
-					'to learn' list would probably make your eyes
-					water.
+					So, before the ink was fresh on the law
+					transcript, I enrolled in a Full Stack Web
+					Development Boot Camp. Sure, making websites is a
+					far cry from robots and Teslas, but the fit was
+					right. The Boot Camp was 30+ hours a week on top
+					of working full time. It was intense and awesome.
+					I cried several times. I often pictured myself as
+					a monkey tapping away at my laptop uselessly,
+					uncomprehendingly. But I was addicted to learning,
+					and the pride I felt when I discovered a fix to a
+					problem was unbeatable. Two years later, it still
+					is. IT'S WORKING! Ah, coding. It feels nice to
+					finally know what I'm going to be when I 'grow
+					up'. I'm a life long student, though, and my 'to
+					learn' list would probably make your eyes water.
 				</p>
+				<figure>
+					<img
+						src={photo2}
+						alt="Blonde woman sits at desk with laptop staring out the window"
+						className="photo-square"
+					></img>
+					<figcaption>
+						I fixed that one thing but now two other things
+						are broken
+					</figcaption>
+				</figure>
 				<p>
 					In my spare time when I'm not designing, coding,
 					or wondering why my code doesn't work, I like to
 					garden, game, and cook extravagant meals that take
 					five hours to make and five minutes to eat.
-					<figure>
-						<img
-							src={photo2}
-							alt="Blonde woman sits at desk with laptop staring out the window"
-							className="photo-square"
-						></img>
-						<figcaption>
-							I fixed that one thing but now two other
-							things are broken
-						</figcaption>
-					</figure>
-					Travelling to experience different cultures,
-					cuisine and landscapes is my greatest passion and
-					I hope to see at least one country a year on
-					average until I kick the bucket (current total:
-					31). I guess I like to write as well, so I'll have
-					to update this page with a blog soon.
+					Travelling is my greatest joy. It gifts me with
+					gratitude, humility, and a glimpse of insight into
+					cultures different to my own.
 				</p>{" "}
 				<p>
 					{" "}
