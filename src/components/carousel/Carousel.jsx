@@ -3,6 +3,7 @@ import "./carousel.scss";
 import goodsongardens from "../../assets/projects/mobile-Goodson-Gardens.png";
 import ggLogo from "../../assets/projects/gg-logo-white.svg";
 import calcul8 from "../../assets/projects/mobile-Calcul823.png";
+import expenseTracker from "../../assets/projects/mobile-Expense-Tracker.png";
 import React from "react";
 import { useState } from "react";
 import htmlLogo from "../../assets/logos/html.png";
@@ -16,6 +17,7 @@ import accessibilityLogo from "../../assets/logos/accessibility.png";
 import yourNews from "../../assets/projects/mobile-your-news.png";
 import ajaxLogo from "../../assets/logos/ajax.png";
 import githubLogo from "../../assets/logos/github.png";
+import reactLogo from "../../assets/logos/react.png";
 
 export default function CarouselWork() {
 	const [index, setIndex] = useState(0);
@@ -35,9 +37,88 @@ export default function CarouselWork() {
 						<div className="carousel-left">
 							<img
 								className="d-block carousel-img"
+								src={expenseTracker}
+								alt="Second slide"
+							/>
+						</div>
+						<div className="carousel-right">
+							<div className="container-heading">
+								<h2 className="heading-project">
+									Expense tracker
+								</h2>
+								<h3 className="subheading-project">
+									Track and visualise personal expenses
+								</h3>
+								<div className="links-container">
+									<h4 className="link-project">
+										<a href="https://ameliagoodson.github.io/Expense-Tracker/">
+											Live site
+										</a>
+									</h4>
+									<h4 className="link-project">
+										<a href="https://github.com/ameliagoodson/Expense-Tracker">
+											Github
+										</a>
+										<img
+											src={githubLogo}
+											alt="Github logo"
+											className="icon-program"
+										/>
+									</h4>
+								</div>
+							</div>
+							<div className="container-description">
+								<p>
+									Allows a user to add expenses including an
+									amount, title and date incurred, which are
+									output in an expense list and{" "}
+									<span className="highlight">
+										dynamically displayed
+									</span>{" "}
+									in a chart.
+								</p>
+								<p>
+									Coded in{" "}
+									<span className="highlight">
+										React native
+									</span>{" "}
+									using JSX. Makes use of props (child to
+									parent and parent to child),{" "}
+									<span className="highlight">
+										manipulates state
+									</span>{" "}
+									using the useState hook, and dynamically
+									outputs styles and content based on user
+									input.
+								</p>
+							</div>
+							<div className="logo-container">
+								<img
+									src={htmlLogo}
+									alt="HTML logo"
+									className="icon-program"
+								/>
+								<img
+									src={cssLogo}
+									alt="CSS logo"
+									className="icon-program"
+								/>
+								<img
+									src={reactLogo}
+									alt="JavaScript logo"
+									className="icon-program"
+								/>
+							</div>
+						</div>
+					</div>
+				</Carousel.Item>
+				<Carousel.Item>
+					<div className="carousel-item-container">
+						<div className="carousel-left">
+							<img
+								className="d-block carousel-img"
 								src={goodsongardens}
 								alt="First slide"
-								// height=""
 							/>
 						</div>
 						<div className="carousel-right">
