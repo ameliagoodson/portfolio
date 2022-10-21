@@ -3,7 +3,6 @@ import "../../global.scss";
 import { Link } from "react-router-dom";
 import photo1 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.jpg";
 import photo2 from "../../assets/Amelia-Goodson-Web-Developer-Designer-Engineer-02.jpg";
-// import AccordionAbout from "../accordionAbout/AccordionAbout";
 
 export default function About() {
 	return (
@@ -12,7 +11,18 @@ export default function About() {
 				<h1 id="about" className="page-heading">
 					ABOUT
 				</h1>
-				{/* <AccordionAbout /> */}
+				<h2 className="page-subheading">
+					The Short Version
+				</h2>
+				<p>
+					Junior full stack developer with experience in
+					LAMP stack (Linux, Apache, MySQL and PHP) and good
+					knowledge of web development fundamentals
+					including HTML, CSS, JavaScript and frameworks.
+				</p>
+				<h2 className="page-subheading">
+					The Long Version
+				</h2>
 				<p>
 					I enjoyed a childhood surrounded by nature in the
 					Blue Mountains near Sydney before escaping
@@ -77,9 +87,8 @@ export default function About() {
 				</p>{" "}
 				<p>
 					{" "}
-					I'm pursuing job opportunities in web development,
-					engineering and UX Design so if you're looking to
-					hire, you can get in touch{" "}
+					I'm pursuing job opportunities in development so
+					if you're looking to hire, you can get in touch{" "}
 					<Link to="/contact" className="highlight">
 						here
 					</Link>{" "}

@@ -3,7 +3,7 @@ import "../../global.scss";
 import { useEffect, useRef } from "react";
 import { init } from "ityped";
 import spiderwebTop from "../../assets/spider-web-top-transparent-background-transparent.svg";
-import resume from "../../assets/Resume-Amelia-Goodson-Web-Developer-Website.pdf";
+import resume from "../../assets/Resume-Amelia-Goodson-Developer-Website.pdf";
 import linkedInLogo from "../../assets/logos/linkedin.png";
 import { Link } from "react-router-dom";
 import About from "../about/About";
