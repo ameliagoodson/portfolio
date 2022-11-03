@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.82019f8f.chunk.css",
-    "main.js": "/static/js/main.fa6a2b22.chunk.js",
-    "main.js.map": "/static/js/main.fa6a2b22.chunk.js.map",
+    "main.js": "/static/js/main.5f236b73.chunk.js",
+    "main.js.map": "/static/js/main.5f236b73.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66725223.js",
     "runtime-main.js.map": "/static/js/runtime-main.66725223.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
-    "static/js/2.52cc326b.chunk.js": "/static/js/2.52cc326b.chunk.js",
-    "static/js/2.52cc326b.chunk.js.map": "/static/js/2.52cc326b.chunk.js.map",
+    "static/js/2.80d0c416.chunk.js": "/static/js/2.80d0c416.chunk.js",
+    "static/js/2.80d0c416.chunk.js.map": "/static/js/2.80d0c416.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
     "static/css/main.82019f8f.chunk.css.map": "/static/css/main.82019f8f.chunk.css.map",
-    "static/js/2.52cc326b.chunk.js.LICENSE.txt": "/static/js/2.52cc326b.chunk.js.LICENSE.txt",
+    "static/js/2.80d0c416.chunk.js.LICENSE.txt": "/static/js/2.80d0c416.chunk.js.LICENSE.txt",
     "static/media/navmenu.scss": "/static/media/Voice-in-my-Head.2110c21e.otf",
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg",
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.2a881f9d.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-Square.2a881f9d.jpg",
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-black-thinking-small.878ad906.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-black-thinking-small.878ad906.jpg",
     "static/media/Brand-large-no-subtitle-white-text-black-background.6862c1c6.svg": "/static/media/Brand-large-no-subtitle-white-text-black-background.6862c1c6.svg",
     "static/media/Brand-large-no-subtitle-white-text-no-background.e24b3ed2.svg": "/static/media/Brand-large-no-subtitle-white-text-no-background.e24b3ed2.svg",
-    "static/media/Resume-Amelia-Goodson-Developer-Website.3aba42a5.pdf": "/static/media/Resume-Amelia-Goodson-Developer-Website.3aba42a5.pdf",
+    "static/media/Resume-Amelia-Goodson-Developer-Website.ad4b875b.pdf": "/static/media/Resume-Amelia-Goodson-Developer-Website.ad4b875b.pdf",
     "static/media/accessibility.23e70a19.png": "/static/media/accessibility.23e70a19.png",
     "static/media/adobe-illustrator.1b1b6c2b.png": "/static/media/adobe-illustrator.1b1b6c2b.png",
     "static/media/ajax.80c34709.png": "/static/media/ajax.80c34709.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.66725223.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.52cc326b.chunk.js",
+    "static/js/2.80d0c416.chunk.js",
     "static/css/main.82019f8f.chunk.css",
-    "static/js/main.fa6a2b22.chunk.js"
+    "static/js/main.5f236b73.chunk.js"
   ]
 }
