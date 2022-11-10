@@ -4,6 +4,7 @@ import goodsongardens from "../../assets/projects/mobile-Goodson-Gardens.png";
 import ggLogo from "../../assets/projects/gg-logo-white.svg";
 import calcul8 from "../../assets/projects/mobile-Calcul823.png";
 import expenseTracker from "../../assets/projects/mobile-Expense-Tracker.png";
+import vetApp from "../../assets/projects/mobile-Vet-Appointment.png";
 import React from "react";
 import { useState } from "react";
 import htmlLogo from "../../assets/logos/html.png";
@@ -18,6 +19,7 @@ import yourNews from "../../assets/projects/mobile-your-news.png";
 import ajaxLogo from "../../assets/logos/ajax.png";
 import githubLogo from "../../assets/logos/github.png";
 import reactLogo from "../../assets/logos/react.png";
+import tailwindLogo from "../../assets/logos/tailwind.png";
 
 export default function CarouselWork() {
 	const [index, setIndex] = useState(0);
@@ -30,22 +32,19 @@ export default function CarouselWork() {
 			<Carousel
 				activeIndex={index}
 				onSelect={handleSelect}
-				interval={999999999}
-			>
+				interval={999999999}>
 				<Carousel.Item>
 					<div className="carousel-item-container">
 						<div className="carousel-left">
 							<img
 								className="d-block carousel-img"
 								src={expenseTracker}
-								alt="Second slide"
+								alt="mobile screenshot of expense tracker app"
 							/>
 						</div>
 						<div className="carousel-right">
 							<div className="container-heading">
-								<h2 className="heading-project">
-									Expense tracker
-								</h2>
+								<h2 className="heading-project">Expense tracker</h2>
 								<h3 className="subheading-project">
 									Track and visualise personal expenses
 								</h3>
@@ -69,9 +68,9 @@ export default function CarouselWork() {
 							</div>
 							<div className="container-description">
 								<p>
-									Allows a user to add expenses including an
-									amount, title and date incurred, which are
-									output in an expense list and{" "}
+									Allows a user to add expenses including an amount,
+									title and date incurred, which are output in an
+									expense list and{" "}
 									<span className="highlight">
 										dynamically displayed
 									</span>{" "}
@@ -79,17 +78,12 @@ export default function CarouselWork() {
 								</p>
 								<p>
 									Coded in{" "}
-									<span className="highlight">
-										React native
-									</span>{" "}
-									using JSX. Makes use of props (child to
-									parent and parent to child),{" "}
-									<span className="highlight">
-										manipulates state
-									</span>{" "}
-									using the useState hook, and dynamically
-									outputs styles and content based on user
-									input.
+									<span className="highlight">React native</span>{" "}
+									using JSX. Makes use of props (child to parent and
+									parent to child),{" "}
+									<span className="highlight">manipulates state</span>{" "}
+									using the useState hook, and dynamically outputs
+									styles and content based on user input.
 								</p>
 							</div>
 							<div className="logo-container">
@@ -101,6 +95,71 @@ export default function CarouselWork() {
 								<img
 									src={cssLogo}
 									alt="CSS logo"
+									className="icon-program"
+								/>
+								<img
+									src={reactLogo}
+									alt="JavaScript logo"
+									className="icon-program"
+								/>
+							</div>
+						</div>
+					</div>
+				</Carousel.Item>
+				<Carousel.Item>
+					<div className="carousel-item-container">
+						<div className="carousel-left">
+							<img
+								className="d-block carousel-img"
+								src={vetApp}
+								alt="mobile screenshot of vet appointment app"
+							/>
+						</div>
+						<div className="carousel-right">
+							<div className="container-heading">
+								<h2 className="heading-project">
+									Appointment at the Vet
+								</h2>
+								<h3 className="subheading-project">
+									Add, delete and review appointments
+								</h3>
+								<div className="links-container">
+									<h4 className="link-project">
+										<a href="https://ameliagoodson.github.io/Vet-Appointment-App/">
+											Live site
+										</a>
+									</h4>
+									<h4 className="link-project">
+										<a href="https://github.com/ameliagoodson/Vet-Appointment-App/">
+											Github
+										</a>
+										<img
+											src={githubLogo}
+											alt="Github logo"
+											className="icon-program"
+										/>
+									</h4>
+								</div>
+							</div>
+							<div className="container-description">
+								<p>
+									Simply designed but functional interactive user
+									interface to add and delete appointments, which are{" "}
+									<span className="highlight">
+										dynamically displayed
+									</span>{" "}
+									as a list.
+								</p>
+								<p>
+									Coded in <span className="highlight">React</span>{" "}
+									and styled using Tailwind CSS. Uses useState and
+									useEffect to fetch and manipulate data.
+								</p>
+							</div>
+							<div className="logo-container">
+								<img
+									src={tailwindLogo}
+									alt="Tailwind CSS logo"
 									className="icon-program"
 								/>
 								<img
@@ -159,43 +218,30 @@ export default function CarouselWork() {
 										High contrast design
 									</span>{" "}
 									and bold photos to capture attention. The{" "}
-									<span className="highlight">
-										waratah logo
-									</span>{" "}
-									reflects the business location and the
-									owner's fondness for waratahs.{" "}
+									<span className="highlight">waratah logo</span>{" "}
+									reflects the business location and the owner's
+									fondness for waratahs.{" "}
 									<span className="highlight">
 										High accessibility
 									</span>{" "}
 									score tested with{" "}
-									<a href="https://wave.webaim.org">
-										WAVE®
-									</a>
+									<a href="https://wave.webaim.org">WAVE®</a>
 								</p>
 							</div>
 							<div className="container-features">
 								<div className="features-div">
 									<p>
-										Layout and design in semantic HTML and
-										CSS. Fully{" "}
-										<span className="highlight">
-											responsive.
-										</span>{" "}
-										Form validation with jQuery.
-										Lightbox/modal box in gallery made with
-										JS. Toggle dot menu for mobile and full
-										menu for larger devices. Back to top
+										Layout and design in semantic HTML and CSS. Fully{" "}
+										<span className="highlight">responsive.</span>{" "}
+										Form validation with jQuery. Lightbox/modal box in
+										gallery made with JS. Toggle dot menu for mobile
+										and full menu for larger devices. Back to top
 										button to{" "}
-										<span className="highlight">
-											ease navigation
-										</span>{" "}
+										<span className="highlight">ease navigation</span>{" "}
 										Logo designed in Illustrator. Visual{" "}
-										<span className="highlight">
-											mockups
-										</span>{" "}
-										created in Figma. Booking and contact
-										functionality via embedding Calendly and
-										Formspree.
+										<span className="highlight">mockups</span> created
+										in Figma. Booking and contact functionality via
+										embedding Calendly and Formspree.
 									</p>
 									<div className="logo-container">
 										<img
@@ -206,8 +252,7 @@ export default function CarouselWork() {
 										<img
 											src={cssLogo}
 											alt="CSS logo"
-											className="icon-program"
-										></img>
+											className="icon-program"></img>
 										<img
 											src={jsLogo}
 											alt="JavaScript logo"
@@ -226,13 +271,11 @@ export default function CarouselWork() {
 										<img
 											src={figmaLogo}
 											alt="Figma logo"
-											className="icon-program"
-										></img>
+											className="icon-program"></img>
 										<img
 											src={accessibilityLogo}
 											alt="Accessibility logo"
-											className="icon-program"
-										></img>
+											className="icon-program"></img>
 									</div>
 								</div>
 							</div>
@@ -274,27 +317,22 @@ export default function CarouselWork() {
 							</div>
 							<div className="container-description">
 								<p>
-									Calculat8 is a cheerfully-coloured
-									frontend website featuring a main basic
-									calculator, a BMI calculator, conversions
-									of distance, length and temperature, and a
-									tips and split bill calculator.
+									Calculat8 is a cheerfully-coloured frontend website
+									featuring a main basic calculator, a BMI calculator,
+									conversions of distance, length and temperature, and
+									a tips and split bill calculator.
 								</p>
 								<p>
-									Web design and layout in HTML, CSS, and
-									modified Bootstrap. Functionality of all
-									calculators in native JavaScript. Icons
-									designed in Adobe Illustrator. Hexagonal
-									pattern on navigation bar created with SVG
-									pattern generator,{" "}
+									Web design and layout in HTML, CSS, and modified
+									Bootstrap. Functionality of all calculators in
+									native JavaScript. Icons designed in Adobe
+									Illustrator. Hexagonal pattern on navigation bar
+									created with SVG pattern generator,{" "}
 									<a href="https://pattern.monster/">
 										Pattern Monster
 									</a>
 									. Radial gradient overlay made with{" "}
-									<a href="https://cssgradient.io/">
-										CSS Gradient
-									</a>
-									.
+									<a href="https://cssgradient.io/">CSS Gradient</a>.
 								</p>
 							</div>
 							<div className="logo-container">
@@ -340,9 +378,7 @@ export default function CarouselWork() {
 						</div>
 						<div className="carousel-right">
 							<div className="container-description">
-								<h2 className="heading-project">
-									Your News
-								</h2>
+								<h2 className="heading-project">Your News</h2>
 								<h3 className="subheading-project">
 									News and weather website
 								</h3>
@@ -365,22 +401,19 @@ export default function CarouselWork() {
 								</div>
 
 								<p>
-									This web application uses six APIs to
-									provide users with news articles available
-									in a number of languages, and to provide
-									weather information based on the user's
-									geolocation or user search input. It also
-									displays a 'trending news' section. The
-									website is fully responsive and is
-									attractive on both desktop and mobile
-									phones, with the sidebars switching
-									location to a central navigation pane
-									under a certain screen size to aid for
-									better navigation and user experience on
-									smaller devices. The 'Covid News' feature
-									is a handy link to the latest COVID-19
-									information globally. If a user wishes to
-									view more specific news on this subject,
+									This web application uses six APIs to provide users
+									with news articles available in a number of
+									languages, and to provide weather information based
+									on the user's geolocation or user search input. It
+									also displays a 'trending news' section. The website
+									is fully responsive and is attractive on both
+									desktop and mobile phones, with the sidebars
+									switching location to a central navigation pane
+									under a certain screen size to aid for better
+									navigation and user experience on smaller devices.
+									The 'Covid News' feature is a handy link to the
+									latest COVID-19 information globally. If a user
+									wishes to view more specific news on this subject,
 									they can use the search bar.
 								</p>
 								<div className="logo-container">
@@ -392,8 +425,7 @@ export default function CarouselWork() {
 									<img
 										src={cssLogo}
 										alt="CSS logo"
-										className="icon-program"
-									></img>
+										className="icon-program"></img>
 									<img
 										src={jsLogo}
 										alt="JavaScript logo"
