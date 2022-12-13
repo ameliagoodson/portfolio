@@ -1,0 +1,35 @@
+.container-modal {
+    margin: 20px 0px 80px 0px;
+    
+}
+
+.modal-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+h1, p {
+    text-align: center;
+}
+.modal-para {
+    color: black;
+    text-align: left;
+}
+p {
+    color: white;
+}
+.button-modal {
+    background-color: black;
+    color: white;
+    width: 20em;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.modal-large {
+    max-width: 100%;
+}
+.img-mobile-size {
+    max-height: 300px;
+}

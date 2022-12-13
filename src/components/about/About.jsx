@@ -15,19 +15,15 @@ export default function About() {
 					The Short Version
 				</h2>
 				<p>
-					Junior full stack developer with experience in
-					LAMP stack (Linux, Apache, MySQL and PHP) and good
-					knowledge of web development fundamentals
-					including HTML, CSS, JavaScript and frameworks.
+					Toronto-based web developer with four years' experience with HTML, CSS, JavaScript and CMSs including WordPress, Joomla!, Silverstripe.
+					Full stack developer with one year's experience in
+					LAMP stack (Linux, Apache, MySQL and PHP).
 				</p>
 				<h2 className="page-subheading">
 					The Long Version
 				</h2>
 				<p>
-					I enjoyed a childhood surrounded by nature in the
-					Blue Mountains near Sydney before escaping
-					surburbia at 18 to move to 'the city'. I pursued a
-					degree in law in Sydney then London without much
+					I pursued a degree in law in Sydney then London without much
 					heart until I discovered tech law. In non-lawyer
 					speak, I researched who could be held responsible
 					for injuries caused by artificial intelligence
@@ -40,7 +36,7 @@ export default function About() {
 				<figure>
 					<img
 						src={photo1}
-						alt="Blonde woman sits at desk with laptop open showing coding on the screen"
+						alt="Amelia Goodson, blonde woman, sits at desk with laptop open showing coding on the screen"
 						className="photo-square"
 					></img>
 					<figcaption>
@@ -49,20 +45,17 @@ export default function About() {
 					</figcaption>
 				</figure>
 				<p>
-					So, before the ink was fresh on the law
-					transcript, I enrolled in a Full Stack Web
-					Development Boot Camp. Sure, making websites is a
+					When I moved back to Australia, I finished my law degree and started working in the Marketing and Communications team for the government, managing their website. And, before the ink was fresh on the law
+					transcript, I enrolled in a Full Stack
+					Development Boot Camp through the University of Sydney to enhance my skills. Sure, making websites is a
 					far cry from robots and Teslas, but the fit was
-					right. The Boot Camp was 30+ hours a week on top
+					right. I learned web development on the job using WordPress and SilverStripe CMSs and learned the theory at the Boot Camp. The Boot Camp was 30+ hours a week on top
 					of working full time. It was intense and awesome.
 					I cried several times. I often pictured myself as
 					a monkey tapping away at my laptop uselessly,
 					uncomprehendingly. But I was addicted to learning,
 					and the pride I felt when I discovered a fix to a
-					problem was unbeatable. Two years later, it still
-					is. IT'S WORKING! Ah, coding. It feels nice to
-					finally know what I'm going to be when I 'grow
-					up'. I'm a life long student, though, and my 'to
+					problem was unbeatable. I'm a life long student, though, and my 'to
 					learn' list would probably make your eyes water.
 				</p>
 				<figure>
@@ -87,7 +80,7 @@ export default function About() {
 				</p>{" "}
 				<p>
 					{" "}
-					I'm pursuing job opportunities in development so
+					Now I'm in Toronto and I'm pursuing job opportunities in development so
 					if you're looking to hire, you can get in touch{" "}
 					<Link to="/contact" className="highlight">
 						here
