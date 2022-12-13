@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.446bf595.chunk.css",
-    "main.js": "/static/js/main.4f7f6729.chunk.js",
-    "main.js.map": "/static/js/main.4f7f6729.chunk.js.map",
+    "main.css": "/static/css/main.17e89815.chunk.css",
+    "main.js": "/static/js/main.2173e16f.chunk.js",
+    "main.js.map": "/static/js/main.2173e16f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.66725223.js",
     "runtime-main.js.map": "/static/js/runtime-main.66725223.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.2df05caa.chunk.js.map": "/static/js/2.2df05caa.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.446bf595.chunk.css.map": "/static/css/main.446bf595.chunk.css.map",
+    "static/css/main.17e89815.chunk.css.map": "/static/css/main.17e89815.chunk.css.map",
     "static/js/2.2df05caa.chunk.js.LICENSE.txt": "/static/js/2.2df05caa.chunk.js.LICENSE.txt",
     "static/media/navmenu.scss": "/static/media/Voice-in-my-Head.2110c21e.otf",
     "static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg": "/static/media/Amelia-Goodson-Web-Developer-Designer-Engineer-02.dedc957f.jpg",
@@ -52,7 +52,7 @@
     "static/js/runtime-main.66725223.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.2df05caa.chunk.js",
-    "static/css/main.446bf595.chunk.css",
-    "static/js/main.4f7f6729.chunk.js"
+    "static/css/main.17e89815.chunk.css",
+    "static/js/main.2173e16f.chunk.js"
   ]
 }
